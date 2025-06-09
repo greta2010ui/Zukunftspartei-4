@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Zukunftspartei - Über uns</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <img src="https://i.postimg.cc/K8WcvPMg/IMG-0194.png" alt="Zukunftspartei Logo" class="logo" />
+    <button class="hamburger" aria-label="Menü öffnen">&#9776;</button>
+  </header>
+  <nav class="side-menu" aria-label="Hauptmenü">
+    <a href="index.html">Start</a>
+    <a href="wahlprogramm.html">Wahlprogramm</a>
+    <a href="ueber-uns.html">Über uns</a>
+    <a href="kontakt.html">Kontakt & Mitmachen</a>
+  </nav>
+
+  <main>
+    <h1>Über uns</h1>
+
+    <section>
+      <h2>Unsere Ziele</h2>
+      <p>Wir setzen uns für mehr Gerechtigkeit und Zusammenhalt in unserer Gesellschaft ein. Unser Ziel ist es, die Zukunft für alle Menschen sicherer und gerechter zu machen.</p>
+      <p>Wir glauben, dass jeder Mensch eine faire Chance verdient, egal woher er kommt oder welche Sprache er spricht.</p>
+      <p>Mit unseren Ideen wollen wir das Bildungssystem verbessern, die Wirtschaft stärken und dafür sorgen, dass alle Menschen Zugang zu guter Arbeit und Gesundheit haben.</p>
+    </section>
+
+    <section>
+      <h2>Unser Team</h2>
+      <ul>
+        <li><strong>Jamie Adler</strong></li>
+        <li><strong>Greta Buda</strong></li>
+        <li><strong>Kseniia Karabtschuk</strong></li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    Zukunftspartei © 2025 &nbsp;|&nbsp;
+    <a href="#">Impressum</a> | 
+    <a href="#">Datenschutz</a> | 
+    <a href="#">Kontakt</a> | 
+    <a href="#">Newsletter</a>
+  </footer>
+
+<script>
+  const hamburger = document.querySelector('.hamburger');
+  const sideMenu = document.querySelector('.side-menu');
+
+  hamburger.addEventListener('click', () => {
+    sideMenu.classList.toggle('open');
+  });
+</script>
+</body>
+</html>
